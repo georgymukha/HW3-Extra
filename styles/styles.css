@@ -35,6 +35,8 @@ body {
 .logo__img {
   position: sticky;
   height: 100%;
+  user-select: none;
+  cursor: pointer;
 }
 
 .logo__text {
@@ -50,6 +52,8 @@ body {
   height: 100%;
   font-weight: 700;
   letter-spacing: 0.4rem;
+  user-select: none;
+  cursor: pointer;
 }
 
 .navbar {
@@ -117,6 +121,7 @@ body {
   color: #ffffff;
   height: 100%;
   font-size: 4.5rem;
+  user-select: none;
 }
 
 .cards {
