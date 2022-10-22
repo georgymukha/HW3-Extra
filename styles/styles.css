@@ -205,6 +205,17 @@ body {
   justify-content: center;
 }
 
+.cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  background-color: #add8e6;
+  padding: 5vw;
+  gap: 3.125rem;
+  visibility: 1;
+  opacity: 1;
+  transition: 1s;
+}
+
 @media screen and (min-width: 750px) {
   html {
     font-size: 2vw;
